@@ -10,3 +10,12 @@ Experiments on the WSJ0-2mix-extr and Libri2mix show that our proposed method ca
 ## Test samples of Target Speech Extraction 
 The sound files blow are some raw noisy wavs and the extracted speech from different methods.
 All the samples are driven from the test set of Libri2Mix (16k min).
+
+**(1) Sample1:**
+
+Noisy wav:
+
+DPCCN:
+
+Our discrete extraction:
+
