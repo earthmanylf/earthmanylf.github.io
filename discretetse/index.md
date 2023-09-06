@@ -1,10 +1,10 @@
 # Generative-based Target Speech Extraction with Speech Discretization and Vocoder
 ## Abstract
-Target speech extraction (TSE) aims to extract the target speaker's speech from a mixture recording with the help of an auxiliary target speaker's speech. 
-Most existing TSE method use a discriminative-based model to predict the proportion of the target speaker in a mixture speech, but discriminative-based model suffers from the problem of not being able to remove residual interfering speech. 
-In this paper, we combine the  speech discretization and vocoder techniques to propose a generation-based TSE approach. 
-By utilizing the vocoder with the input of discrete symbols, after the prediction of discrete symbol sequence with the help of an auxiliary input, the target speech could be re-synthesized. 
-Experiments on the WSJ0-2mix-extr and Libri2mix show that our proposed method can obtain high quality target speech without interference.
+Target speech extraction (TSE) is a task aimed at isolating the speech of a specific target speaker from an audio mixture, using an auxiliary recording of that target speaker. 
+Most existing TSE methods employ discriminative-based models to estimate the target speaker's proportion in the mixture, but they are plagued by the inability to effectively eliminate residual interfering speech. 
+In this paper, we present a novel generation-based TSE approach by combining speech discretization and vocoder techniques. 
+By predicting a sequence of discrete tokens with the auxiliary audio and employing a vocoder that takes discrete tokens as input, the target speech can be effectively re-synthesized.
+Our experiments conducted on the WSJ0-2mix and Libri2mix datasets demonstrate that our proposed method yields high-quality target speech without interference.
 
 
 ## Test samples of Target Speech Extraction 
