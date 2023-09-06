@@ -19,7 +19,7 @@ Reference wav:
 
 DPCCN:
 <audio id="audio" controls="" preload="none">
-<source id="wav" src="https://github.com/earthmanylf/earthmanylf.github.io/blob/main/discretetse/wavs/sample1-dpccn.wav"></audio>
+<source id="wav" src="https://github.com/earthmanylf/earthmanylf.github.io/blob/main/discretetse/wavs/sample1-dpccn.wav?raw=true"></audio>
 
 Our discrete extraction:
 
